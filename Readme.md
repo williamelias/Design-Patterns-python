@@ -14,19 +14,19 @@ código presente em :
 
 **Herança**
 
-código presente em : poo/inheritance
+código presente em : [Herança](/poo/Inheritance/index.py)
 
 !['inheritance'](poo/inheritance.png)
 
 **Dependência**
 
-código presente em : poo/dependency
+código presente em : [Dependência](/poo/dependency/index.py)
 
 !['dependency'](poo/dependency.png)
 
 **Associação**
 
-código presente em : poo/association
+código presente em : [Associação](/poo/association/index.py)
 
 !['association'](poo/association.png)
 
