@@ -6,16 +6,28 @@ Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
 ## Princípios de OO
 
-Implementação
+**Implementação**
+
+código presente em : 
+
 !['impl'](poo/implementation.png)
 
-Herança
+**Herança**
+
+código presente em : poo/inheritance
+
 !['inheritance'](poo/inheritance.png)
 
-Dependência
+**Dependência**
+
+código presente em : poo/dependency
+
 !['dependency'](poo/dependency.png)
 
-Associação
+**Associação**
+
+código presente em : poo/association
+
 !['association'](poo/association.png)
 
 
