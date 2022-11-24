@@ -6,7 +6,17 @@ Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
 ## Princípios de OO
 
-(Escreva aqui...)
+Implementação
+!['impl'](poo/implementation.png)
+
+Herança
+!['inheritance'](poo/inheritance.png)
+
+Dependência
+!['dependency'](poo/dependency.png)
+
+Associação
+!['association'](poo/association.png)
 
 
 ## Padrões criacionais 
