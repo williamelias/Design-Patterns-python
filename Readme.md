@@ -32,9 +32,9 @@ código presente em : [Associação](/poo/association/index.py)
 
 ## SOLID 
 
-código presente em : [solid_1](/solid/)
+código presente em : [code](/solid/)
 
-Explicação presente em : [solid_2](/solid/readme.md)
+Explicação presente em : [solid_principles](/solid/readme.md)
 
 
 ## Padrões criacionais 
