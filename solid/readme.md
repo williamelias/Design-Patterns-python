@@ -16,6 +16,8 @@ Frases de efeito:
 - Prefira pequenas partes à grandes acoplamentos
 - Uma alteração em uma classe que faz mais de uma coisa é mais complexa que uma que tem uma única responsabilidade
 
+<hr>
+
 ## O - Open/Close
 
 As classes devem ser abertas para extensão mas fechadas para modificação

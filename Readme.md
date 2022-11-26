@@ -3,14 +3,15 @@
 
 Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
+<hr>
 
 ## Princípios de OO
-
-**Implementação**
 
 código presente em : [poo](/poo/)
 
 Explicação presente em : [poo_principles](/poo/readme.md)
+
+<hr>
 
 ## SOLID 
 
@@ -18,6 +19,7 @@ código presente em : [code](/solid/)
 
 Explicação presente em : [solid_principles](/solid/readme.md)
 
+<hr>
 
 ## Padrões criacionais 
 
@@ -27,6 +29,8 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 
 !['factory_method'](creational/factory_method/factory.png)
 
+
+<hr>
 
 ## Referências
 
