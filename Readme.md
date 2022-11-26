@@ -8,27 +8,9 @@ Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
 **Implementação**
 
+código presente em : [poo](/poo/)
 
-!['impl'](poo/implementation.png)
-
-**Herança**
-
-código presente em : [Herança](/poo/Inheritance/index.py)
-
-!['inheritance'](poo/inheritance.png)
-
-**Dependência**
-
-código presente em : [Dependência](/poo/dependency/index.py)
-
-!['dependency'](poo/dependency.png)
-
-**Associação**
-
-código presente em : [Associação](/poo/association/index.py)
-
-!['association'](poo/association.png)
-
+Explicação presente em : [poo_principles](/poo/readme.md)
 
 ## SOLID 
 
