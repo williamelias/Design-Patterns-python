@@ -27,3 +27,11 @@ Frases de efeito:
 - Uma classe aberta possibilita herança e sobrescrita da mesma
 - Se uma classe já foi concluída é melhor relizar alterações por meio de subclasses
 - Uma classe com bug não pode ser considerada concluída e deverá ser alterada diretamente
+
+## L - Liskov Substitution Principle
+
+Quando estendendo  uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
+
+Requerimentos para implementar Liskov 
+
+-  Os tipos de parâmetros em um método de uma subclase deve coincidir ou serem mais abstratos que os tipos de parâmetros nos métodos da superclasse
