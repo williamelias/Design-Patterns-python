@@ -8,7 +8,6 @@ Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
 **Implementação**
 
-código presente em : 
 
 !['impl'](poo/implementation.png)
 
@@ -29,6 +28,13 @@ código presente em : [Dependência](/poo/dependency/index.py)
 código presente em : [Associação](/poo/association/index.py)
 
 !['association'](poo/association.png)
+
+
+## SOLID 
+
+código presente em : [solid_1](/solid/)
+
+Explicação presente em : [solid_2](/solid/readme.md)
 
 
 ## Padrões criacionais 
