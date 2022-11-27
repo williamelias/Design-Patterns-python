@@ -10,7 +10,7 @@
 
 ## Herança
 
-código presente em : [Herança](/Inheritance/index.py)
+**código presente em** : [Herança](/Inheritance/index.py)
 
 !['inheritance'](inheritance.png)
 
@@ -18,7 +18,7 @@ código presente em : [Herança](/Inheritance/index.py)
 
 ## Dependência
 
-código presente em : [Dependência](/dependency/index.py)
+**código presente em** : [Dependência](/dependency/index.py)
 
 !['dependency'](dependency.png)
 
@@ -26,6 +26,6 @@ código presente em : [Dependência](/dependency/index.py)
 
 ## Associação
 
-código presente em : [Associação](/association/index.py)
+**código presente em** : [Associação](/association/index.py)
 
 !['association'](association.png)

@@ -7,7 +7,7 @@ Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
 ## Princípios de OO
 
-código presente em : [poo](/poo/)
+**código presente em** : [poo](/poo/)
 
 Explicação presente em : [poo_principles](/poo/readme.md)
 
@@ -15,7 +15,7 @@ Explicação presente em : [poo_principles](/poo/readme.md)
 
 ## SOLID 
 
-código presente em : [code](/solid/)
+**código presente em** : [code](/solid/)
 
 Explicação presente em : [solid_principles](/solid/readme.md)
 
