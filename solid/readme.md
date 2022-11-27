@@ -4,6 +4,8 @@
 
 ## S - Single Responsibility
 
+código presente em : [code](single_responsability.py)
+
 Frase de efeito: Uma classe deve ter apenas uma razão para mudar.
 A classe deve apenas realizar uma função dentro da aplicação e essa função deverá ser encapsulada (escondida) dentro da classe.
 
@@ -19,6 +21,8 @@ Frases Auxiliares:
 
 ## O - Open/Close
 
+código presente em : [code](open_close.py)
+
 Frases de efeito: As classes devem ser abertas para extensão mas fechadas para modificação
 
 Frases Auxiliares:
@@ -28,6 +32,8 @@ Frases Auxiliares:
 - Uma classe com bug não pode ser considerada concluída e deverá ser alterada diretamente
 
 ## L - Liskov Substitution Principle
+
+código presente em : [code](liskov.py)
 
 Frase de efeito: Quando estendendo  uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
 
@@ -43,6 +49,8 @@ Requerimentos para implementar Liskov
     - No lugar de sobrescrever ou alterar valores, devemos optar por criar novos métodos
 
 ## I - Interface Segregation Principle
+
+código presente em : [code](interface_segregation.py)
 
 Frase de efeito: Clientes não devem ser forçados a depender de métodos que não usam
 
