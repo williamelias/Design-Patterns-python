@@ -34,4 +34,11 @@ Quando estendendo  uma classe, lembre-se que você deve ser capaz de passar obje
 
 Requerimentos para implementar Liskov 
 
--  Os tipos de parâmetros em um método de uma subclase deve coincidir ou serem mais abstratos que os tipos de parâmetros nos métodos da superclasse
+- Os tipos de parâmetros em um método de uma subclase deve coincidir ou serem mais abstratos que os tipos de parâmetros nos métodos da superclasse
+- O tipo de retorno de um método da subclasse deve coincidir com o tipo de retorno do método da superclasse
+- Um método em uma subclase não deve lançar tipos de exceção que não são esperados que método base lançaria
+- Uma subclasse não deve fortalecer pré-condições
+- Uma subclasse não deveria enfraquecer pós-condições
+- Invariantes de uma superclasse devem ser preservados
+- Uma subclasse não deve mudar valores de campos privados da superclasse
+    - No lugar de sobrescrever ou alterar valores, devemos optar por criar novos métodos
