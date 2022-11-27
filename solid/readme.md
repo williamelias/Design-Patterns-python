@@ -57,3 +57,9 @@ Frase de efeito: Clientes não devem ser forçados a depender de métodos que n�
 Frases Auxiliares:
 
 - Devemos prezar por classes mais enxutas e pela segregação para que o cliente use somente o necessário.
+
+## D - Dependency Inversion Principle
+
+**código presente em** : [code](dependency_inversion.py)
+
+Frase de efeito: Classes de alto nível não devem depender de classes de baixo nível. Ambas devem depender de abstrações. As abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
