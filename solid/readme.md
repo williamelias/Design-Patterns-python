@@ -4,13 +4,12 @@
 
 ## S - Single Responsibility
 
-Uma classe deve ter apenas uma razão para mudar.
-
+Frase de efeito: Uma classe deve ter apenas uma razão para mudar.
 A classe deve apenas realizar uma função dentro da aplicação e essa função deverá ser encapsulada (escondida) dentro da classe.
 
 Objetivo : Reduzir o acoplamento e complexidade.
 
-Frases de efeito:
+Frases Auxiliares:
 
 - Evita classes muito grandes
 - Prefira pequenas partes à grandes acoplamentos
@@ -20,9 +19,9 @@ Frases de efeito:
 
 ## O - Open/Close
 
-As classes devem ser abertas para extensão mas fechadas para modificação
+Frases de efeito: As classes devem ser abertas para extensão mas fechadas para modificação
 
-Frases de efeito:
+Frases Auxiliares:
 
 - Uma classe aberta possibilita herança e sobrescrita da mesma
 - Se uma classe já foi concluída é melhor relizar alterações por meio de subclasses
@@ -30,7 +29,7 @@ Frases de efeito:
 
 ## L - Liskov Substitution Principle
 
-Quando estendendo  uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
+Frase de efeito: Quando estendendo  uma classe, lembre-se que você deve ser capaz de passar objetos da subclasse em lugar de objetos da classe mãe sem quebrar o código cliente.
 
 Requerimentos para implementar Liskov 
 
@@ -42,3 +41,11 @@ Requerimentos para implementar Liskov
 - Invariantes de uma superclasse devem ser preservados
 - Uma subclasse não deve mudar valores de campos privados da superclasse
     - No lugar de sobrescrever ou alterar valores, devemos optar por criar novos métodos
+
+## I - Interface Segregation Principle
+
+Frase de efeito: Clientes não devem ser forçados a depender de métodos que não usam
+
+Frases Auxiliares:
+
+- Devemos prezar por classes mais enxutas e pela segregação para que o cliente use somente o necessário.
