@@ -1,5 +1,13 @@
 
-# Factoy method
+# Padrões Presentes
+
+- Factory Method
+
+- Abstract Factory
+
+<hrz>
+
+## Factoy method
 
 Fornece uma interface para criar objetos em uma superclasse, permitindo que as subclasses alterem o tipo de objetos que são criados.
 
@@ -29,7 +37,7 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 
 <hr>
 
-# Abstract Factory
+## Abstract Factory
 
 Permite criar famílias de objetos sem ter que especificar suas classes concretas.
 
