@@ -10,8 +10,8 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 **Prós**:
 
 - Evita acoplamentos entre o criador e o produto
-- Aplica o princípio S (Single responsability) do Sólid
-- Aplica o princípio O (open/closed)
+- Aplica o princípio S (Single responsability) do SOLID
+- Aplica o princípio O (open/closed) do SOLID
 
 **Contras**:
 
@@ -33,21 +33,24 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 
 Permite criar famílias de objetos sem ter que especificar suas classes concretas.
 
-**Aplicabilidade**: //
+**Aplicabilidade**: Usado quando devemos interagir com diversas famílas de produtos sem interação com classes concretas, permitindo uma futura escalabilidade
 
 <hr>
 
 **Prós**:
 
-- //
+- Todos produtos são compatíveis entre si
+- Sem vínculo forte com classes concretas
+- Aplicação do princípio S (single responsability) do SOLID
+- Aplica o princípio O (open/closed) do SOLID
 
 **Contras**:
 
-- //
+- O código pode se tornar complexo pois a cada novo produto ou fábrica uma interface deverá ser criada, além das classes concretas
 
 <hr>
 
-**Padrões relacionados** : //
+**Padrões relacionados** : Abstract factory, Prototype e Builder
 
 <hr>
 
