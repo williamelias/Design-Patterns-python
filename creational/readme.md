@@ -21,4 +21,6 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 
 **Padrões relacionados** : Abstract factory, Prototype, Template Method e Builder
 
-!['factory_method'](/factory_method/factory.png)
+**Diagrama UML**
+
+!['factory_method'](/creational/factory_method/factory.png)
