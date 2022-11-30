@@ -5,7 +5,7 @@
 
 - Abstract Factory
 
-<hrz>
+<hr>
 
 ## Factoy method
 
