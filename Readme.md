@@ -23,12 +23,9 @@ Explicação presente em : [solid_principles](/solid/readme.md)
 
 ## Padrões criacionais 
 
-### Factoy method
+Explicação presente em : [creational](/creational/readme.md)
 
-Fornece uma interface para criar objetos em uma superclasse, permitindo que as subclasses alterem o tipo de objetos que são criados.
-
-!['factory_method'](creational/factory_method/factory.png)
-
+Código presente em : [code](/creational/)
 
 <hr>
 
