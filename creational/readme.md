@@ -26,3 +26,31 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 **Diagrama UML**
 
 !['factory_method'](/creational/factory_method/factory.png)
+
+<hr>
+
+# Abstract Factory
+
+Permite criar famílias de objetos sem ter que especificar suas classes concretas.
+
+**Aplicabilidade**: //
+
+<hr>
+
+**Prós**:
+
+- //
+
+**Contras**:
+
+- //
+
+<hr>
+
+**Padrões relacionados** : //
+
+<hr>
+
+**Diagrama UML**
+
+!['abs_method'](/creational/abstract_factory/abs_factory.png)
