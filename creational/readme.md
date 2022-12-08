@@ -5,6 +5,8 @@
 
 - Abstract Factory
 
+- Builder
+
 <hr>
 
 ## Factoy method
