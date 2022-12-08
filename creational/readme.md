@@ -65,3 +65,36 @@ Permite criar famílias de objetos sem ter que especificar suas classes concreta
 **Diagrama UML**
 
 !['abs_method'](/creational/abstract_factory/abs_factory.png)
+
+<hr>
+
+## Builder
+
+Permite criar objetos complexos passo a passo - com um mesmo código é possível construir diferentes tipos e representações
+Esse design pattern só se torna útils quando temos objetos que requerem configuração extensiva.
+Ao contrário de outros padrões de projeto, o builder possibilita criar objetos de interfaces diferentes.
+Esse padrão permite que você execute etapas não sequenciais e somente quando quiser busque o objeto gerado,diferentemente dos outros padrões que retornam o objeto imediatamente.
+
+**Aplicabilidade**:  Use-o para se livrar de um construtor telescópico
+
+<hr>
+
+**Prós**:
+
+- Você tem total controle das etapas de construção de um objeto, podendo: adiár etapas, pular e executar em sequência.
+- Haverá uma boa reutilização de código
+- Aplicamos o princípio S (Single responsability)
+
+**Contras**:
+
+- O nível de complexidade de código aumenta, pois temos que criar várias classes e interfaces .
+
+<hr>
+
+**Padrões relacionados** : Abstract factory, Bridge, Composite e Builder
+
+<hr>
+
+**Diagrama UML**
+
+!['abs_method'](/creational/builder/with_builder.png)
