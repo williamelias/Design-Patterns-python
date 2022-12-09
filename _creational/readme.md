@@ -35,7 +35,7 @@ Fornece uma interface para criar objetos em uma superclasse, permitindo que as s
 
 **Diagrama UML**
 
-!['factory_method'](/creational/factory_method/factory.png)
+!['factory_method'](/_creational/factory_method/factory.png)
 
 <hr>
 
@@ -66,7 +66,7 @@ Permite criar famílias de objetos sem ter que especificar suas classes concreta
 
 **Diagrama UML**
 
-!['abs_method'](/creational/abstract_factory/abs_factory.png)
+!['abs_method'](/_creational/abstract_factory/abs_factory.png)
 
 <hr>
 
@@ -99,4 +99,4 @@ Esse padrão permite que você execute etapas não sequenciais e somente quando 
 
 **Diagrama UML**
 
-!['abs_method'](/creational/builder/with_builder.png)
+!['abs_method'](/_creational/builder/with_builder.png)

@@ -23,10 +23,20 @@ Explicação presente em : [solid_principles](/solid/readme.md)
 
 ## Padrões criacionais 
 
-Explicação presente em : [creational](/creational/readme.md)
+São padrões voltados a construção, fabrição de objetos ou família de objetos, podendo ser algo imediato ou em etapas.
 
-Código presente em : [code](/creational/)
+Explicação presente em : [creational](/_creational/readme.md)
 
+Código presente em : [code](/_creational/)
+
+<hr>
+
+
+## Padrões Estruturais
+
+Explicação presente em : [structural](/_structural/readme.md)
+
+Código presente em : [code](/_structural/)
 <hr>
 
 ## Referências
