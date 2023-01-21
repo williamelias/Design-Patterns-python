@@ -3,6 +3,15 @@
 
 Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
+
+Todo estudo embasado no seguinte livro: 
+
+<hr>
+
+[https://refactoring.guru/pt-br/design-patterns/book]
+
+<img height="150" src="https://files.passeidireto.com/0aa57a40-26ca-43b1-8659-720f1ecd6f86/bg1.png"/>
+
 <hr>
 
 ## Princípios de OO
