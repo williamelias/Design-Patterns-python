@@ -8,9 +8,10 @@ class Logistics:
     def show_transport_description(self, transport: transports.TransportI):
         return transport.description
 
+    @abc.abstractmethod
     def plan_delivery(self) -> str:
         """create a plan delivery"""
-        raise 'plan deliver generic'
+        raise NotImplementedError
 
     @abc.abstractmethod
     def create_transport(self) -> transports.TransportI:
