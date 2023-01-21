@@ -18,7 +18,7 @@
 
 ## Dependência
 
-**código presente em** : [Dependência](/dependency/index.py)
+**código presente em** : [Dependência](/1-dependency/index.py)
 
 !['dependency'](dependency.png)
 
@@ -26,7 +26,7 @@
 
 ## Associação
 
-**código presente em** : [Associação](/association/index.py)
+**código presente em** : [Associação](/2-association/index.py)
 
 !['association'](association.png)
 
@@ -45,7 +45,6 @@ de B.
 
 - Agregação: Objeto A sabe sobre objeto B, e consiste de B.
 Classe A depende de B.
-
 
 - Composição: Objeto A sabe sobre objeto B, consiste de B, e ge-
 rencia o ciclo de vida de B. Classe A depende de B.

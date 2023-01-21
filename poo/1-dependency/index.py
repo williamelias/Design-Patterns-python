@@ -6,7 +6,12 @@ ITEMS = {
     'history': ['French Revolution','First world War']
 }
 
-# Strong Dependence
+"""
+Strong Dependence:
+
+In this example, the class TeacherStrong depends of especific concrete class CourseConcrete
+
+"""
 class CourseConcrete:
     def __init__(self,items:tp.Iterable[str]) -> None:
         self.__items = items
@@ -19,7 +24,13 @@ class TeacherStrong:
     def list_items(self,course:CourseConcrete):
         return course.items
 
-# Weak Dependence
+
+"""
+Weak Dependence:
+
+In this example, the class TeacherWeak depends of generic class CourseI
+
+"""
 
 class CourseI(metaclass=abc.ABCMeta):
     @abc.abstractproperty
