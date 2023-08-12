@@ -1,5 +1,5 @@
 
-# Design Patterns
+# Design Patterns Python
 
 Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
 
