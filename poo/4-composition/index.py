@@ -1,5 +1,12 @@
 from typing import Iterable
 
+"""
+Composition's Example
+- AccountHistory has __data property
+- Account has __history:AccountHistory property and manage history data
+
+"""
+
 class AccountHistory:
     def __init__(self) -> None:
         self.__data:Iterable[str] = []

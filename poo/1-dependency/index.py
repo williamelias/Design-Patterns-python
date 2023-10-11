@@ -28,7 +28,7 @@ class TeacherStrong:
 """
 Weak Dependence:
 
-In this example, the class TeacherWeak depends of generic class CourseI
+In this example, the class TeacherWeak depends of interface CourseI
 
 """
 

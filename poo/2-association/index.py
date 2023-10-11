@@ -1,5 +1,13 @@
 import abc
 
+"""
+    Association's Example where:
+    - Math implements CourseI
+    - Teacher and Student classes are a Person
+    - PrivateClass is associated with Teacher,Student
+    
+"""
+
 class CourseI(metaclass=abc.ABCMeta):
     @abc.abstractproperty
     def items(cls):
