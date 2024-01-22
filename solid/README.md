@@ -13,7 +13,7 @@ Objetivo : Reduzir o acoplamento e complexidade.
 
 Frases Auxiliares:
 
-- Evita classes muito grandes
+- Evite classes muito grandes
 - Prefira pequenas partes à grandes acoplamentos
 - Uma alteração em uma classe que faz mais de uma coisa é mais complexa que uma que tem uma única responsabilidade
 

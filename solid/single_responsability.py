@@ -4,10 +4,10 @@ class EmployeeA:
         self.__name
 
     def get_name(self):
-        pass
+        return self.name
 
     def print_time_sheet_report(self):
-        return self.get_name()
+        print(self.__dict__)
 
 
 # After
@@ -23,4 +23,4 @@ class EmployeeB:
 
 class TimeSheetReport:
     def print_time_sheet_report(self, employee: EmployeeB):
-        return employee.get_name()
+        print(employee.__dict__)

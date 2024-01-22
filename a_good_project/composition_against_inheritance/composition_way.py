@@ -15,22 +15,22 @@ class Driver(classmeta=abc.ABCMeta):
 
 class Robot(Driver):
     def navigate(self):
-        return 'navigate'
+        return "navigate"
 
 
 class Human(Driver):
     def navigate(self):
-        return 'navigate'
+        return "navigate"
 
 
 class CombustionEngine(Engine):
     def move(self):
-        return 'move'
+        return "move"
 
 
 class EletricEngine(Engine):
     def move(self):
-        return 'move'
+        return "move"
 
 
 class Transport:

@@ -29,7 +29,7 @@ class ModernChair(Chair):
 
 class ModernSofa(Sofa):
     def sit() -> str:
-        return 'yes'
+        return "yes"
 
 
 class ModernTable(Table):
@@ -47,7 +47,7 @@ class VictorianChair(Chair):
 
 class VictorianSofa(Sofa):
     def sit() -> str:
-        return 'yes or no'
+        return "yes or no"
 
 
 class VictorianTable(Table):

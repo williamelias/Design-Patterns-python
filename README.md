@@ -18,7 +18,14 @@ Todo estudo embasado no seguinte livro:
 
 **código presente em** : [poo](/poo/)
 
-Explicação presente em : [poo_principles](/poo/readme.md)
+Explicação presente em : [poo_principles](/poo/README.md)
+
+<hr>
+
+## Características de um bom projeto
+
+
+Explicação presente em: [a_good_project](/a_good_project/README.md)
 
 <hr>
 
@@ -26,7 +33,7 @@ Explicação presente em : [poo_principles](/poo/readme.md)
 
 **código presente em** : [code](/solid/)
 
-Explicação presente em : [solid_principles](/solid/readme.md)
+Explicação presente em : [solid_principles](/solid/README.md)
 
 <hr>
 

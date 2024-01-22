@@ -89,4 +89,3 @@ class ReportDatabaseB:
 
     def delete_report(self, item):
         self.__db.delete_data(item)
-

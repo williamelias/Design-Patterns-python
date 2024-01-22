@@ -9,19 +9,25 @@ Aggregation's Example
 
 """
 
+
 class Client:
-    def __init__(self,name:str) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
 
+
 class Account:
-    def __init__(self,client:Client) -> None:
-        self.client = client
-    
+    def __init__(self, client: Client) -> None:
+        self.client = client  # Association case.
+
+
 class Bank:
     def __init__(self) -> None:
-        self.accounts:tp.List[Account] = []
-    def add_account(self,account:Account) -> None:
+        self.accounts: tp.List[
+            Account
+        ] = []  # aggregation can be, frequently, a group of objects.
+
+    def add_account(self, account: Account) -> None:
         self.accounts.append(account)
-    
-    def remove_account(self,account:Account) -> None:
+
+    def remove_account(self, account: Account) -> None:
         self.accounts.remove(account)

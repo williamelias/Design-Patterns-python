@@ -23,24 +23,24 @@ class CloudProvider(metaclass=abc.ABCMeta):
 
 class Amazon(CloudProvider):
     def store_file(self):
-        return 'implemented'
+        return "implemented"
 
     def get_file(self):
-        return 'implemented'
+        return "implemented"
 
     def create_server(self):
-        return 'implemented'
+        return "implemented"
 
     def stop_server(self):
-        return 'implemented'
+        return "implemented"
 
 
 class DropBox(CloudProvider):
     def store_file(self):
-        return 'implemented'
+        return "implemented"
 
     def get_file(self):
-        return 'implemented'
+        return "implemented"
 
     def create_server(self):
         return "Not implemented because doesn't exists in DropBoX "
@@ -72,23 +72,23 @@ class CloudServerProvider(metaclass=abc.ABCMeta):
         raise NotImplementedError
 
 
-class Amazon(StorageProvider, CloudServerProvider):
+class AmazonWithI(StorageProvider, CloudServerProvider):
     def store_file(self):
-        return 'implemented'
+        return "implemented"
 
     def get_file(self):
-        return 'implemented'
+        return "implemented"
 
     def create_server(self):
-        return 'implemented'
+        return "implemented"
 
     def stop_server(self):
-        return 'implemented'
+        return "implemented"
 
 
-class DropBox(StorageProvider):
+class DropBoxWithI(StorageProvider):
     def store_file(self):
-        return 'implemented'
+        return "implemented"
 
     def get_file(self):
-        return 'implemented'
+        return "implemented"

@@ -13,8 +13,8 @@ class ItemA:
 
 class OrderA:
     def __init__(self, line_items: typing.Iterable[ItemA], shipping) -> None:
-        default = 'ground'
-        self.__valid_types = ['ground', 'air']
+        default = "ground"
+        self.__valid_types = ["ground", "air"]
         self.__line_items = line_items
         self.__shipping_type = default
         self.__date = datetime.datetime.now().date()
@@ -32,16 +32,16 @@ class OrderA:
     @shipping_type.setter
     def shipping_type(self, type: str):
         if type not in self.__valid_types:
-            raise ValueError('Necessário passar um tipo válido!')
+            raise ValueError("Necessário passar um tipo válido!")
         self.__shipping_type = type
 
     def get_shipping_coast(self):
-        if self.shipping_type == 'ground':
+        if self.shipping_type == "ground":
             if self.get_total() > 100:
                 return 0
             return max(10, self.get_total_weight() * 1.5)
 
-        if self.shipping_type == 'air':
+        if self.shipping_type == "air":
             return max(20, self.get_total_weight() * 3)
 
     @property
@@ -81,7 +81,7 @@ class Shipping(metaclass=abc.ABCMeta):
 
 class Ground(Shipping):
     def date(self):
-        return 'date'
+        return "date"
 
     def get_coast(self, order: Order):
         if order.get_total() > 100:
@@ -91,7 +91,7 @@ class Ground(Shipping):
 
 class Air(Shipping):
     def date(self):
-        return 'date'
+        return "date"
 
     def get_coast(self, order: Order):
         if order.get_total() > 100:

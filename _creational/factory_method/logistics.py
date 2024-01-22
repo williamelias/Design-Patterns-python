@@ -22,7 +22,7 @@ class Logistics:
 class RoadLogistics(Logistics):
     def plan_delivery(self) -> str:
         """create a plan delivery"""
-        return 'plan deliver road'
+        return "plan deliver road"
 
     def create_transport(self) -> transports.RoadTransport:
         """Create a Road transport"""
@@ -32,7 +32,7 @@ class RoadLogistics(Logistics):
 class SeaLogistics(Logistics):
     def plan_delivery(self) -> str:
         """create a plan delivery"""
-        return 'plan deliver sea'
+        return "plan deliver sea"
 
     def create_transport(self) -> transports.SeaTransport:
         """Create a Sea transport."""
@@ -42,7 +42,7 @@ class SeaLogistics(Logistics):
 class AirLogistics(Logistics):
     def plan_delivery(self) -> str:
         """create a plan delivery"""
-        return 'plan deliver air'
+        return "plan deliver air"
 
     def create_transport(self) -> transports.AirPlanTransport:
         """Create a AirPlan transport"""

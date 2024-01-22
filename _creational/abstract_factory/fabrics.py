@@ -1,20 +1,30 @@
 import abc
 
-from .products import *
+from .products import (
+    ModernSofa,
+    VictorianSofa,
+    Sofa,
+    Table,
+    ModernChair,
+    ModernTable,
+    Chair,
+    VictorianChair,
+    VictorianTable
+)
 
 
 class Forniture(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def create_sofa(self) -> Sofa:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abc.abstractmethod
     def create_table(self) -> Table:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abc.abstractmethod
     def create_chair(self) -> Chair:
-        raise NotImplemented
+        raise NotImplementedError
 
 
 class ModernForniture(Forniture):

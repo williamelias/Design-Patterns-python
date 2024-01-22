@@ -9,14 +9,14 @@ class TransportI(metaclass=abc.ABCMeta):
 
 class RoadTransport(TransportI):
     def deliver(self):
-        print('Truck deliver.')
+        print("Truck deliver.")
 
 
 class SeaTransport(TransportI):
     def deliver(self):
-        print('Sea Deliver.')
+        print("Sea Deliver.")
 
 
 class AirPlanTransport(TransportI):
     def deliver(self):
-        print('AirPlan truck.')
+        print("AirPlan truck.")

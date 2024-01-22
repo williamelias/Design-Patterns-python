@@ -3,17 +3,17 @@
 
 class ProgrammerConcrete:
     def write_code(self):
-        return 'write code'
+        return "write code"
 
 
 class DesignerConcrete:
     def plan_system(self):
-        return 'plan system'
+        return "plan system"
 
 
 class TesterConcrete:
     def test_software(self):
-        return 'test software'
+        return "test software"
 
 
 class CompanyConcrete:
@@ -26,4 +26,3 @@ class CompanyConcrete:
         self.designer.plan_system()
         self.programmer.write_code()
         self.tester.test_software()
-

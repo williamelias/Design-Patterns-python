@@ -53,4 +53,3 @@ class House:
 
     def build_statues(self):
         pass
-

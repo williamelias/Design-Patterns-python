@@ -12,17 +12,17 @@ class Employee(metaclass=abc.ABCMeta):
 
 class Programmer(Employee):
     def do_work(self):
-        return 'write code'
+        return "write code"
 
 
 class Designer(Employee):
     def do_work(self):
-        return 'plan system'
+        return "plan system"
 
 
 class Tester(Employee):
     def do_work(self):
-        return 'test software'
+        return "test software"
 
 
 class CompanyWithAbstract(metaclass=abc.ABCMeta):
