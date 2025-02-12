@@ -39,7 +39,7 @@ Explicação presente em : [solid_principles](/solid/README.md)
 
 ## Padrões criacionais 
 
-São padrões voltados a construção, fabrição de objetos ou família de objetos, podendo ser algo imediato ou em etapas.
+São padrões voltados a construção, fabricação de objetos ou família de objetos, podendo ser algo imediato ou em etapas.
 
 Explicação presente em : [creational](/_creational/readme.md)
 

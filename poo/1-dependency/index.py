@@ -34,7 +34,8 @@ In this example, the class TeacherWeak depends of interface CourseI
 
 
 class CourseI(metaclass=abc.ABCMeta):
-    @abc.abstractproperty
+    @abc.abstractmethod
+    @property
     def items(cls):
         raise NotImplementedError
 

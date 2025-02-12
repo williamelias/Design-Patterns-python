@@ -11,7 +11,8 @@ import abc
 
 
 class CourseI(metaclass=abc.ABCMeta):
-    @abc.abstractproperty
+    @abc.abstractmethod
+    @property
     def items(cls):
         raise NotImplementedError
 
