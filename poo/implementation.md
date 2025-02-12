@@ -3,7 +3,7 @@
 title: Implementation
 ---
 classDiagram
-    Payment <|-- ProductONe
+    Payment <|-- ProductOne
     Payment <|-- ProductTwo
 
     namespace Payment_implementation{
