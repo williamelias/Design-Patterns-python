@@ -1,60 +1,52 @@
 
-# Design Patterns Python
+# Design Patterns in Python
 
-Repositório destinado ao estudo de Padrões de códigos orientados a objetos.
+This repository is dedicated to studying **Object-Oriented Design Patterns** in Python.
+Based on the Refactoring Guru book/guide:
+[https://refactoring.guru/pt-br/design-patterns/book] <img height="150" src="https://files.passeidireto.com/0aa57a40-26ca-43b1-8659-720f1ecd6f86/bg1.png"/> 
 
+---
 
-Todo estudo embasado no seguinte livro: 
+## OOP Principles
 
-<hr>
+* **Code:** [`/poo`](./poo/)
+* **Explanation:** [`/poo/README.md`](./poo/README.md)
 
-[https://refactoring.guru/pt-br/design-patterns/book]
+---
 
-<img height="150" src="https://files.passeidireto.com/0aa57a40-26ca-43b1-8659-720f1ecd6f86/bg1.png"/>
+## Traits of a Good Project
 
-<hr>
+* **Explanation:** [`/a_good_project/README.md`](./a_good_project/README.md)
 
-## Princípios de OO
+---
 
-**código presente em** : [poo](/poo/)
+## SOLID
 
-Explicação presente em : [poo_principles](/poo/README.md)
+* **Code:** [`/solid`](./solid/)
+* **Explanation:** [`/solid/README.md`](./solid/README.md)
 
-<hr>
+---
 
-## Características de um bom projeto
+## Creational Patterns
 
+Patterns focused on **creating/fabricating objects** (or families of objects), either immediately or step-by-step.
 
-Explicação presente em: [a_good_project](/a_good_project/README.md)
+* **Explanation:** [`/_creational/readme.md`](./_creational/readme.md)
+* **Code:** [`/_creational`](./_creational/)
 
-<hr>
+---
 
-## SOLID 
+## Structural Patterns
 
-**código presente em** : [code](/solid/)
+* **Explanation:** [`/_structural/readme.md`](./_structural/readme.md)
+* **Code:** [`/_structural`](./_structural/)
 
-Explicação presente em : [solid_principles](/solid/README.md)
+---
 
-<hr>
+## References
 
-## Padrões criacionais 
+* [https://refactoring.guru/design-patterns](https://refactoring.guru/design-patterns)
 
-São padrões voltados a construção, fabricação de objetos ou família de objetos, podendo ser algo imediato ou em etapas.
+---
 
-Explicação presente em : [creational](/_creational/readme.md)
-
-Código presente em : [code](/_creational/)
-
-<hr>
-
-
-## Padrões Estruturais
-
-Explicação presente em : [structural](/_structural/readme.md)
-
-Código presente em : [code](/_structural/)
-<hr>
-
-## Referências
-
-- https://refactoring.guru/design-patterns
+Se quiser, eu já crio uma **seção “Como executar os exemplos”** com comandos prontos (pytest/venv) e um **sumário** no topo. Quer que eu inclua?
